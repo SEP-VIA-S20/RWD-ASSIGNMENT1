@@ -9,8 +9,8 @@ body{
 }
 header
 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5)), url("weights.jpg");
-    min-height: 70vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5)), url("https://cdn2.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2018/05/free-weight-exercises-dumbbells.jpg?itok=p0JzJLQ3");
+    min-height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -347,3 +347,4 @@ th{
     width: 50vw;
     margin: 30px auto;
 }
+
