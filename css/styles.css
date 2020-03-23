@@ -1,45 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    background-color:black;
+
+body {
+    background-color: black;
     font-family: 'Dosis', sans-serif;
-    margin:0;
+    margin: 0;
 }
-header
-{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5)), url("/images/weights.jpg");
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5)), url("/images/weights.jpg");
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.nav-bar
-{
-    background: rgb(0,0,0,0.5);
+.nav-bar {
+    background: rgb(0, 0, 0, 0.5);
     height: 70px;
 
 }
 
-.logo{
+.logo {
     margin: 10px 50px;
     height: 60px;
 }
 
-.menu{
+.menu {
     float: right;
     list-style: none;
     margin: 10px;
 }
 
-.menu li{
+.menu li {
     display: inline-block;
-    margin:15px 5px;
+    margin: 15px 5px;
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
     font-size: 20px;
     color: #fff;
@@ -48,82 +48,83 @@ header
     letter-spacing: 2px;
     border: 1px solid #fff;
     border-radius: 10px;
-    margin:auto;
+    margin: auto;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     background: #fff;
     transition: .4s;
     color: #000;
 }
 
-.headline{
-    display:block;
+.headline {
+    display: block;
     text-align: center;
     margin: 150px auto;
     color: #fff;
-    
+
 }
 
 
-.headline h1{
+.headline h1 {
     font-size: 7vw;
 
 }
-.headline h2{
+
+.headline h2 {
     font-size: 2vw;
-    margin:1vw;
+    margin: 1vw;
 }
-.scrool{
+
+.scrool {
     width: "60%";
     direction: "left";
     height: "100%";
 }
 
-.btn{
+.btn {
     font-size: 18px;
     letter-spacing: 2px;
     margin: 5px;
     padding: 7px 10px;
     text-decoration: none;
-    border: 1px solid #fff;      
+    border: 1px solid #fff;
 }
 
-.btn1{
+.btn1 {
     background: #fff;
-    color: #000;      
+    color: #000;
 }
 
-.btn2{
+.btn2 {
     color: #fff;
 }
 
-.btn2:hover{
+.btn2:hover {
     background: #fff;
     color: #000;
     transition: .4s;
 }
 
-.btn3
-{
+.btn3 {
     color: #fff
 }
 
-.btn3:hover{
+.btn3:hover {
     background: #fff;
     color: #000;
     transition: .4s;
 }
 
 .schedule {
-  display: block;
+    display: block;
     margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-.instructor{
+.instructor {
     display: block;
     margin: auto;
     margin-left: auto;
@@ -137,17 +138,17 @@ header
     color: #fff;
     padding: 20px;
     text-align: center;
-    
-    
+
+
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
 
 .fa:hover {
@@ -155,111 +156,58 @@ header
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+    background: #55ACEE;
+    color: white;
 }
 
 .fa-youtube {
-  background: #bb0000;
-  color: white;
+    background: #bb0000;
+    color: white;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+    background: #125688;
+    color: white;
 }
 
 .fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.one {
-    float: left;
-    /*background-image: url("/images/body2.jpg");*/
-    height: 400px;
-    margin: 2px;
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #dd4b39;
     color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.flex-container > div {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
 
 }
 
-.two {
-    float: left;
-    /*background-image: url("/images/move2.png");*/
-    height: 400px;
-    margin: 2px;
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.img {
+    width: 400px;
+    height: 500px;
+}
+
+.txt {
     text-align: center;
     color: white;
-}
-
-.three {
-    float: left;
-    /* background-image: url("/images/Sweat2.jpg");*/
-    height: 400px;
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
-
-.four {
-    float: left;
-    /*background-image: url("/images/Speed-sprint.png");*/
-    height: 400px;
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: white;
-}
-
-#txt1 {
-    position: absolute;
-    top: 200px;
-    left: 20%;
-    /*width: 100%;*/
-}
-
-#txt2 {
-    position: absolute;
-    top: 200px;
-    left: 20%;
-    width: 100%;
-}
-
-#txt3 {
-    position: absolute;
-    top: 600px;
-    left: 20%;
-    /*width: 100%;*/
-}
-
-#txt4 {
-    position: absolute;
-    top: 600px;
-    left: 20%;
-    width: 100%;
 }
 
 .body {
@@ -288,44 +236,58 @@ header
     width: 500px;
     height: 200px;
 }
-.tab{
-    padding-top:5vh;
-    width: 96.5vw;  
+
+.tab {
+    padding-top: 5vh;
+    width: 96.5vw;
     height: 50vh;
     text-align: center;
-    margin:auto;
+    margin: auto;
     margin-bottom: 1vw;
     padding-bottom: 1vw;
 }
-tr,td{
+
+tr,
+td {
     padding: 0.1vw;
-    border:1px solid black;
-    margin:0;
-    font-size:1.4vw;
+    border: 1px solid black;
+    margin: 0;
+    font-size: 1.4vw;
 
 }
-th{
+
+th {
     text-align: center;
     background-color: plum;
 }
-.hours{
+
+.hours {
     align-content: center;
     background-color: plum;
-    height: 20px; 
+    height: 20px;
 }
-.mo, .we, .fr, .su{
+
+.mo,
+.we,
+.fr,
+.su {
     align-content: center;
     background-color: aqua;
 }
-.tu, .th, .sa{
+
+.tu,
+.th,
+.sa {
     align-content: center;
     background-color: lightcyan;
 }
-*{
+
+* {
     font-family: 'Dosis', sans-serif;
 }
-.headline-instructor{
+
+.headline-instructor {
     text-align: center;
-    color:white;
+    color: white;
     margin-top: 30px;
 }
