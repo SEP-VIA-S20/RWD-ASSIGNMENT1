@@ -1,0 +1,28 @@
+*
+body{
+        font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin:0;
+
+}
+.heading{
+    width: 98vw;
+    padding: 1vw;
+    margin: auto;
+    background-color: cyan;
+    
+}
+.about{
+    width: 50vw;
+    padding: 0.5vw;
+    border: 5px solid beige;
+    margin: auto;
+    
+}
+
+p{
+    padding:1vw;
+}
+a{
+    text-decoration: none;
+}

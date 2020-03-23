@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+    font-family: 'Dosis', sans-serif;
+    margin:0;
+}
+header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5)), url("/images/weights.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-bar
+{
+    background: rgb(0,0,0,0.5);
+    height: 70px;
+
+}
+
+.logo{
+    margin: 10px 50px;
+    height: 60px;
+}
+
+.menu{
+    float: right;
+    list-style: none;
+    margin: 10px;
+}
+
+.menu li{
+    display: inline-block;
+    margin:15px 5px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 15px;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin:auto;
+}
+
+.menu li a:hover{
+    background: #fff;
+    transition: .4s;
+    color: #000;
+}
+
+.headline{
+    display:block;
+    text-align: center;
+    margin: 150px auto;
+    color: #fff;
+    
+}
+
+
+.headline h1{
+    font-size: 7vw;
+
+}
+.headline h2{
+    font-size: 2vw;
+    margin:1vw;
+}
+.scrool{
+    width: "60%";
+    direction: "left";
+    height: "100%";
+}
+
+.btn{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border: 1px solid #fff;      
+}
+
+.btn1{
+    background: #fff;
+    color: #000;      
+}
+
+.btn2{
+    color: #fff;
+}
+
+.btn2:hover{
+    background: #fff;
+    color: #000;
+    transition: .4s;
+}
+
+.btn3
+{
+    color: #fff
+}
+
+.btn3:hover{
+    background: #fff;
+    color: #000;
+    transition: .4s;
+}
+
+.schedule {
+  display: block;
+    margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.instructor{
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.footer {
+    background: #000;
+    height: 80px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.one {
+    float: left;
+    /*background-image: url("/images/body2.jpg");*/
+    height: 400px;
+    margin: 2px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.two {
+    float: left;
+    /*background-image: url("/images/move2.png");*/
+    height: 400px;
+    margin: 2px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.three {
+    float: left;
+    /* background-image: url("/images/Sweat2.jpg");*/
+    height: 400px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.four {
+    float: left;
+    /*background-image: url("/images/Speed-sprint.png");*/
+    height: 400px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+#txt1 {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    /*width: 100%;*/
+}
+
+#txt2 {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    width: 100%;
+}
+
+#txt3 {
+    position: absolute;
+    top: 600px;
+    left: 20%;
+    /*width: 100%;*/
+}
+
+#txt4 {
+    position: absolute;
+    top: 600px;
+    left: 20%;
+    width: 100%;
+}
+
+.body {
+    background-color: black;
+    margin: 0px;
+}
+
+.description {
+    background-color: aqua;
+    font-family: sans-serif;
+    font-size: 15px;
+    min-width: 450px;
+    max-width: inherit;
+    text-align: left;
+    padding: 5px;
+    margin: 2px;
+
+}
+
+#p2 {
+    width: 620px;
+    height: 400px;
+}
+
+#p1 {
+    width: 500px;
+    height: 200px;
+}
+.tab{
+    padding-top:5vh;
+    width: 96.5vw;  
+    height: 50vh;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 1vw;
+    padding-bottom: 1vw;
+}
+tr,td{
+    padding: 0.1vw;
+    border:1px solid black;
+    margin:0;
+    font-size:1.4vw;
+
+}
+th{
+    text-align: center;
+    background-color: plum;
+}
+.hours{
+    align-content: center;
+    background-color: plum;
+    height: 20px; 
+}
+.mo, .we, .fr, .su{
+    align-content: center;
+    background-color: aqua;
+}
+.tu, .th, .sa{
+    align-content: center;
+    background-color: lightcyan;
+}
+*{
+    font-family: 'Dosis', sans-serif;
+}
+.headline-instructor{
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+}
