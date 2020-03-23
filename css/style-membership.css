@@ -36,14 +36,13 @@ text-align: center;
 }
 a{
     text-decoration: none;
-    background-color: white;
     color:white;
 }
 .button{
     padding:0 40px;
     border: 3px dashed white;
     border-radius: 50px;
-    width: 300px;
+    width: 310px;
     margin:5px auto;
     margin-bottom: 10px;
 }

@@ -8,10 +8,17 @@ body {
     font-family: 'Dosis', sans-serif;
     margin: 0;
 }
+<<<<<<< HEAD
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5)), url("/images/weights.jpg");
     height: 600px;
+=======
+header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5)), url("https://cdn2.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2018/05/free-weight-exercises-dumbbells.jpg?itok=p0JzJLQ3");
+    min-height: 80vh;
+>>>>>>> master
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -291,3 +298,25 @@ th {
     color: white;
     margin-top: 30px;
 }
+<<<<<<< HEAD
+=======
+.flex-container{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container div{
+    width: 300px;
+    color:white;
+    margin:  20px;
+}
+.about{
+    color:white;
+    text-align: center;
+    width: 50vw;
+    margin: 30px auto;
+}
+
+>>>>>>> master
