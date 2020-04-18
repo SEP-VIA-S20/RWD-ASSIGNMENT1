@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--Constantina Tripon-->
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-        <link href="css/styles.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Dosis|Righteous&display=swap" rel="stylesheet">
-
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
+
 <body>
-     <table class="body">
-        <td><img id="p1" src="images/running25.jpg" alt="running" title="Run Indoor25"></td>
-       <td class="description"><b>Run Indoor 25</b> is for those who would like to run on treadmills, both the beginner and you who already have many and maybe even fast miles in their legs. The content of the hours will be varied, but there is always a focus on heart rate.
-        </td>
-    </table>
-    <table class="body">
-        <td><img id="p1" src="images/bikefree.jpg" alt="bike free" title="Bike FreeStyle"></td>
-        <td class="description">At <b>Bike FreeStyle</b>  you will be challenged on a tough cycle that includes both longer intervals, but which will also have some high-intensity intervals along the way. The hour will be without the use of the visual Intelligent Cycling system and the intensity is moderate to high.
-        </td>
-    </table>
-    <table class="body">
-    <td><img id="p1" src="images/bike25.webp"alt="bike rush" title="Bike Rush 25"></td>
-        <td class="description"><b>Bike Rush 25</b> gets your heart rate up in just 25 minutes. You will be challenged from start to finish in short and clear intervals, with an instructor motivating you to do your utmost. Your burn, your fitness and your endorphins get a huge boost. </td>
-    </table>
-</body>
-</html>
+    <!--A video container-->
+    <div class="container">
+        <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="videos/Will%20Power%20Fitness%20Commercial.mp4"></iframe>
+        </div>
+    </div>
+    <!--Another spacing element.-->
+    <div class="mx-auto">
+        <h1><b><i>"Prove yourself until you improve yourself!"</i></b></h1>
+    </div>
+    <!--The group of cards with the description of the classes.-->
+    <div class="card-group">
+        <div class="card">
+            <div class="container">
+                <img class="card-img-top" class="image" src="images/running25.jpg" alt="RunIndoor">
+                <div class="middle">
+                    <div class="text">Run Indoor 25</div>
+                </div>
+                <h4 class="card-title">Seek results not apreciations!</h4>
+                <p class="card-text"><b>RunIndoor25</b> is for those who would like to run on treadmills, both the beginner and you who already have many and maybe even fast miles in their legs. The content of the hours will be varied, but there is always a focus on heart rate.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="container">
+                <img class="card-img-top" class="image" src="images/bikefree.jpg" alt="Bike Freestyle">
+                <div class="middle">
+                    <div class="text">Bike FreeStyle</div>
+                </div>
+                <h4 class="card-title">Never give up on your goals!</h4>
+                <p class="card-text"><b>BikeFreestyle</b> you will be challenged on a tough cycle that includes both longer intervals, but which will also have some high-intensity intervals along the way. The hour will be without the use of the visual Intelligent Cycling system and the intensity is moderate to high.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="container">
+                <img class="card-img-top" class="image" src="images/runIndoor.jpg" alt="BikeRush25">
+                <div class="middle">
+                    <div class="text">Bike Rush 25</div>
+                </div>
+            </div>
+            <h4 class="card-title">The journey begines with a single step!</h4>
+            <p class="card-text"><b>BikeRush25</b> gets your heart rate up in just 25 minutes. You will be challenged from start to finish in short and clear intervals, with an instructor motivating you to do your utmost. Your burn, your fitness and your endorphins get a huge boost.</p>
+        </div>
+    </div>
+    <!--Anders Holm made the footer for assignment1-->
+    <footer class="footer">
+        <p>@ All rights reserved to Group 7</p>
+        <p>You will find us at: Campus Horsens Chr. M. Østergaardsvej 4 8700 Horsens</p>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <p><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/?lang=da" target="_blank" class="fa fa-twitter"></a>
+            <a href="mailto:Viafit@gmail.com" target="_blank" class="fa fa-google"></a>
+            <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-ghost"></a></p>
+
+    </footer>
+</body></html>
