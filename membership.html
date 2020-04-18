@@ -3,70 +3,77 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>contact</title>
-       <link href="css/style-membership.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Dosis|Righteous&display=swap" rel="stylesheet">
-        
-
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Membership</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/membership.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Righteous&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <header>
-        <div class="nav-bar">
-            <img src="images/logo.png" class="logo">
-
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="instructors.html">Instructors</a></li>
-                <li><a href="membership.html">Membership</a></li>
-                <li><a href="classes.html">Classes</a></li>
-                 <li><a href="Schedule.html">Schedule</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>
-
-
+<header>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a href="index.html"> <img src="./images/logo.png" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavbar"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="topNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="instructors.html" class="nav-link">Instructors</a></li>
+                <li class="nav-item active"><a href="membership.html" class="nav-link">Membership</a></li>
+                <li class="nav-item"><a href="classes.html" class="nav-link">Classes</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Schedule</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
             </ul>
         </div>
-        
-<div class="header"><h1>Our memberships:</h1></div>
-    <div class="flex-container">
-        <div class="flex-box">
-        <h1>Basic</h1>
-        <div class="same-size"><p>Our basic subscription model gives you access to all the gym equipment’s within our opening hours, however, does not give you access to join any of the classes.</p></div>
-            <h1>19$</h1>
-        </div>
-        <div class="flex-box">
-            <h1>Premium</h1>
-        <div class="same-size"><p>Our premium subscription model gives you free access to all our classes and to all our equipment’s within the opening hours. </p></div>
-        <h1>29$</h1>
+    </nav>
+</header>
+
+<section class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 text-center"></div>
+            <div class="mb-5"
         </div>
     </div>
-    <div class="button"><a href="index.html"><h1>Back to homepage!</h1></a></div>
+</section>
 
-
-
-
-
-
-    </header>
-
-    <footer class="footer">
-        <p>@ All rights reserved to group 7</p>
-        <p>You will find us at: Campus Horsens Chr. M. Østergaardsvej 4 8700 Horsens</p>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <p><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
-            <a href="https://twitter.com/?lang=da" target="_blank" class="fa fa-twitter"></a>
-            <a href="mailto:Viafit@gmail.com" target="_blank" class="fa fa-google"></a>
-            <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
-            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
-            <a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-ghost"></a></p>
-
-    </footer>
-
+<div class="header">
+    <h1>Our memberships</h1></div>
+<div class="flex-container">
+    <div class="flex-box">
+        <h1>Basic</h1>
+        <div class="same-size">
+            <p>Our basic subscription model gives you access to all the gym equipment’s within our opening hours, however, does not give you access to join any of the classes.</p>
+        </div>
+        <h1>19$</h1> </div>
+    <div class="flex-box">
+        <h1>Premium</h1>
+        <div class="same-size">
+            <p>Our premium subscription model gives you free access to all our classes and to all our equipment’s within the opening hours. </p>
+        </div>
+        <h1>29$</h1> </div>
+</div>
+<div class="button"><a href="index.html"><h1>Back to homepage!</h1></a></div>
+   
+<footer class="footer">
+    <p>&COPY; All rights reserved to Group 7</p>
+    <p> Campus Horsens Chr. M. Østergaardsvej 4 8700 Horsens</p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <p>
+        <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/?lang=da" target="_blank" class="fa fa-twitter"></a>
+        <a href="mailto:Viafit@gmail.com" target="_blank" class="fa fa-google"></a>
+        <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-ghost"></a>
+    </p>
+</footer>
+    
 </body>
 
 </html>
