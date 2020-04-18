@@ -238,6 +238,12 @@ p,a,h1,h2,h3{
 .article-content > p{
   color : var(--main-background);
 }
+.contact-info{
+  background-color: red;
+  margin: 20px;
+  padding:20px;
+  border-radius: var(--main-radius);
+}
 
 footer> p{
   color: var(--second-color);
@@ -245,4 +251,3 @@ footer> p{
 footer> a{
   color: var(--second-color);
 }
- 
