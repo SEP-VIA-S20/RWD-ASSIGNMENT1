@@ -16,7 +16,7 @@
     --second-hue-rotation: hue-rotate(32deg);
     --main-radius: 25px;
     --second-radius: 15px;
-    color: var(--main-background);
+    color: var(--second-color);
     --main-transform: scale(1.03);
     font-family: var(--main-font);
     text-align: center;
@@ -87,4 +87,5 @@ footer> p{
 footer> a{
   color: var(--second-color);
 }
+
  /* made by Daniel  */
