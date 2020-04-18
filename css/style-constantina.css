@@ -1,4 +1,4 @@
-*
+@import url(../templates/nav-bar.css);
 .carousel-inner img{
     /* customizing the boostarp carousel(Constantina Tripon) */
     width: 100%;
@@ -23,7 +23,7 @@
   text-align: center;
   padding: 3% 4%;
 }
-/*customization of the text when hover on an image in from the card element (Constantina Tripon)*/
+/*customization of the text when hover on an image from the card element (Constantina Tripon)*/
 .card-text{
     text-align: center;
     background-color: transparent;
@@ -35,14 +35,4 @@
 .card {
     border-color: black;
 }
-/* the footer designed by Anders Holm*/
-.footer {
-    background: #000;
-    height: 8%;
-    color: #fff;
-    padding: 1%;
-    text-align: center;      
-}
-
-
 
