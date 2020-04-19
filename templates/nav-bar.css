@@ -1,4 +1,8 @@
-/* made by Daniel */
+/* made by Daniel Railean 
+Basically same as main style but without stiling of all divs, only footer and navbar
+to keep the style of website the same
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;800&family=Dosis&family=Playfair+Display:wght@400;700&display=swap');
 *{
     margin: 0;
