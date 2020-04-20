@@ -1,53 +1,58 @@
+<!-- Daniel Railean 294241 
+Used bootstap althought it createst boring looking sites
+All photos are from unsplashed and free to use-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Main Page</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="./css/main.css">
-<link href="https://fonts.googleapis.com/css?family=Dosis|Righteous&display=swap" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- import for styles bootstrap scripts and favicon -->
+    <title>VIAFit</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Righteous&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <link rel="shortcut icon" href="./images/logo_dark.png" type="image/x-icon">
 </head>
 
-<body>
+<header>
+    <!-- Navbar class, expand-lg will show only on large screens, otherwise show hamburgher menu -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <!-- initially tried with dark navbar, but later changed it in styles // navbar should expand when lg - got it by tries -->
+        <a href="#"> <img src="./images/logo.png" class="logo"></a>
 
-    <header>
-        <nav class=" navbar navbar-expand-md bg-dark navbar-dark">
-          
-            <a href="#"> <img src="./images/logo.png" class="logo"></a>
-           
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavbar">
-               <span class="navbar-toggler-icon"></span>
-           </button>
-           
-            <div class="collapse navbar-collapse" id="topNavbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="topNavbar">
             <ul class="navbar-nav">
-                <li class="nav-item active"><a href="" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Instructors</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Membership</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Classes</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Schedule</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href="" class="nav-link">About</a></li>
-
-
+                <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="instructors.html" class="nav-link">Instructors</a></li>
+                <li class="nav-item"><a href="membership.html" class="nav-link">Membership</a></li>
+                <li class="nav-item"><a href="classes.html" class="nav-link">Classes</a></li>
+                <li class="nav-item"><a href="Schedule.html" class="nav-link">Schedule</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
             </ul>
-            </div>
-        </nav>
+        </div>
+    </nav>
 
-        <!-- <div class="headline">
-            <h1><marquee class="scroll">DO YOU WANT TO GET FIT?</marquee></h1>
-           
-
-
-
-        </div> -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <!-- expand when extra large -->
+                <!-- I placed all items in diferent containers for styling -->
+                <div class="carousel-container">
                     <h2>Our GYM</h2>
                     <div id="main-carousel" class="carousel slide carousel-fade">
                         <ul class="carousel-indicators">
@@ -58,79 +63,137 @@
                             <li data-target="#main-carousel" data-slide-to="4"></li>
                         </ul>
                         <div class="carousel-inner">
-                           <div class="carousel-item active"><img src="./images/main-carousel/main-carousel-0.jpg" alt="" class="d-block w-100"></div>
-                           <div class="carousel-item"><img src="./images/main-carousel/main-carousel-1.jpg" alt="" class="d-block w-100"></div>
-                           <div class="carousel-item"><img src="./images/main-carousel/main-carousel-2.jpg" alt="" class="d-block w-100"></div>
-                           <div class="carousel-item"><img src="./images/main-carousel/main-carousel-3.jpg" alt="" class="d-block w-100"></div>
-                           <div class="carousel-item"><img src="./images/main-carousel/main-carousel-4.jpg" alt="" class="d-block w-100"></div>
+                            <div class="carousel-item active"><img src="./images/main-carousel/main-carousel-0.jpg"
+                                    alt="" class="d-block w-100"></div>
+                            <div class="carousel-item"><img src="./images/main-carousel/main-carousel-1.jpg" alt=""
+                                    class="d-block w-100"></div>
+                            <div class="carousel-item"><img src="./images/main-carousel/main-carousel-2.jpg" alt=""
+                                    class="d-block w-100"></div>
+                            <div class="carousel-item"><img src="./images/main-carousel/main-carousel-3.jpg" alt=""
+                                    class="d-block w-100"></div>
+                            <div class="carousel-item"><img src="./images/main-carousel/main-carousel-4.jpg" alt=""
+                                    class="d-block w-100"></div>
                         </div>
-                        <a href="#main-carousel" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                        <a href="#main-carousel" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                        <a href="#main-carousel" class="carousel-control-prev" data-slide="prev"><span
+                                class="carousel-control-prev-icon"></span></a>
+                        <a href="#main-carousel" class="carousel-control-next" data-slide="next"><span
+                                class="carousel-control-next-icon"></span></a>
                     </div>
-                    <div class="news">
-                        <h2>Latest news</h2>
-                        <div class="row news-tab">
-                            <div class="col-md-5">
-                                <h3>We`re closed due to COVID-19</h3>
-                            </div>
-                            <div class="col-md-7">
-                                <p>The Danish government have introduced additional measures aimed at limiting the spread of the coronavirus. The Danish border is closed until the 13th April 2020. This means that the border between Denmark and Sweden is closed. No one will be able to enter Denmark without a "worthy purpose".</p>
-                            </div>
-                            
-                         </div>
+                </div>
+
+                <div class="news">
+                    <h2>Latest news</h2>
+
+                    <div class="row news-tab">
+                        <div class="col-xl-5">
+                            <h3>We`re closed due to COVID-19</h3>
+                        </div>
+                        <div class="col-xl-7">
+                            <p>Due to the state requirement for i.a. fitness centers in Denmark to temporarily stay
+                                closed due to Covid-19, SMART fitness will be closed until Monday 13 April. The
+                                country must now stand together to break the coronavirus's chain of infection.</p>
+                        </div>
                     </div>
 
+                    <div class="row news-tab">
+                        <div class="col-xl-5">
+                            <h3>Bowspring</h3>
+                        </div>
+                        <div class="col-xl-7">
+                            <p>Bowspring is mindful yoga, full body toning, a functional form of work that works
+                                with recognizable everyday movements.</p>
+                        </div>
                     </div>
-                    
-                <div class="col-lg-6">
+
+                    <div class="row news-tab">
+                        <!-- expand when extra large -->
+                        <div class="col-xl-5">
+                            <h3>Nice Family training in Autumn holidays</h3>
+                        </div>
+                        <div class="col-xl-7">
+                            <p>During the fall holidays there is plenty of fun training for the whole family in
+                                SMART Fitness. We have created some unique teams for children, adolescents, pregnant
+                                women and babies.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- expand when large -->
+            <div class="col-lg-6">
+
+                <div class="articles-container">
                     <h2>Latest articles</h2>
-                       <div class="row articles">
-                           <div class="col-lg-6">
-                               <div class="row">
-                                   <div class="col-xs-6"><img src="./images/article/article-0.jpg" alt=""></div>
-                                   <div class="col-xs-6"><p>Why people <br> gain  weight <br> as they get older</p></div>
-                               </div>
-                               
-                           </div>
-                           <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-xs-6"><img src="./images/article/article-1.jpg" alt=""></div>
-                                <div class="col-xs-6"><p>A replacement <br> for exercise?</p></div>
-                            </div>
-                           </div>
-                       </div>
-                       <div class="row articles">
-                           <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-xs-6"><img src="./images/article/article-2.jpg" alt=""></div>
-                                <div class="col-xs-6"><p>Study finds dopamine, <br> biological clock  <br> link to snacking,<br> overeating and obesity</p></div>
+                    <div class="row articles">
+
+                        <div class="col-xl-6">
+                            <div class="article-item-container one-article">
+                                <a href="./articles/article-weight.html">
+                                    <div class="article-heading">
+
+                                        Why people gain weight as they get older
+
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-lg-6 last">
-                            <div class="row">
-                                <div class="col-xs-6"><img src="./images/article/article-3.jpg" alt=""></div>
-                                <div class="col-xs-6"><p>Limiting mealtimes <br> may increase <br> your motivation  <br> for exercise</p></div>
+
+                        <div class="col-xl-6">
+                            <div class="article-item-container two-article">
+                                <a href="./articles/article-exercise.html">
+                                    <div class="article-heading">
+
+                                        A replacement for exercise?
+
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                       </div>
-                   </div>
+                    </div>
+                    <div class="row articles">
+                        <!-- expand when extra large -->
+                        <div class="col-xl-6">
+                            <div class="article-item-container three-article">
+                                <a href="./articles/article-dopamine.html">
+                                    <div class="article-heading">
+
+                                        Study finds dopamine, biological clock link to snacking,overeating and
+                                        obesity
+
+                                    </div>
+                                </a>
+                            </div>
+
+
+                        </div>
+                        <!-- expand when extra large -->
+                        <div class="col-xl-6 last">
+                            <div class="article-item-container four-article">
+                                <a href="./articles/article-motivation.html">
+                                    <div class="article-heading">
+
+                                        Limiting mealtimes may increase your motivation for exercise
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
 
-    </header>
-    <footer class="footer">
-        <p>&COPY; All rights reserved to Group 7</p>
-        <p> Campus Horsens Chr. M. Østergaardsvej 4 8700 Horsens</p>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <p><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
-            <a href="https://twitter.com/?lang=da" target="_blank" class="fa fa-twitter"></a>
-            <a href="mailto:Viafit@gmail.com" target="_blank" class="fa fa-google"></a>
-            <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
-            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
-            <a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-ghost"></a></p>
-    </footer>
-    
-</body>
+</header>
+<footer class="footer">
+    <p>&COPY; All rights reserved to Group 7</p>
+    <p> Campus Horsens Chr. M. Østergaardsvej 4 8700 Horsens</p>
+    <script src="https://kit.fontawesome.com/02f649f51c.js" crossorigin="anonymous"></script>
+    <p>Check us on Github</p> <a href="https://github.com/SEP-VIA-S20/RWD-ASSIGNMENT1" target="_blank"> <i
+            class="fab fa-github"></i></a>
+
+</footer>
 
 </html>
