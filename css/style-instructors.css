@@ -1,6 +1,8 @@
 @import url(../templates/nav-bar.css);
 
 .instructor{
+    background: var(--second-color);
+    filter: var(--hue-rotation);
     
 }
 .anders{
@@ -44,7 +46,18 @@
     .anders{
         width: 95vw;
         height: 95vw;
-
+    }
+    .lucas{
+        width: 95vw;
+        height: 95vw;
+    }
+    .dimitrian{
+        width: 95vw;
+        height: 95vw;
+    }
+    .daniel{
+        width: 95vw;
+        height: 95vw;
     }
 }
 
