@@ -14,7 +14,7 @@ A lot of item are scaled when hovered, some also change hue.
   --transition-speed: 270ms;
   transition: all var(--transition-speed);
   --main-background: white; 
-  --second-color: red;
+  --second-color: rgba(255, 0, 0, 0.9);
   --main-font: 'Dosis', sans-serif;
   --second-font: 'Dosis', sans-serif;
   --hue-rotation: hue-rotate(-7deg);
@@ -271,7 +271,7 @@ and some copyright feature from non advanced users */
   margin-top: 155px;
   padding: 25px 5px;
   border-radius: var(--second-radius);
-  background-color: rgba(255, 51, 0, 0.644);
+  background-color: rgba(255, 0, 0, 0.637);
 }
 
 .article-content {
@@ -281,6 +281,8 @@ and some copyright feature from non advanced users */
   border: var(--main-border);
   padding: 20px;
   border-radius: var(--main-radius);
+  filter: var(--hue-rotation);
+
 }
 
 .article-content>p {
@@ -288,9 +290,11 @@ and some copyright feature from non advanced users */
 }
 
 .contact-info {
-  background-color: red;
+
+  background-color: var(--second-color);
   border-radius: var(--main-radius);
   padding:20px;
+  filter: var(--hue-rotation);
 }
 
 footer>p {
