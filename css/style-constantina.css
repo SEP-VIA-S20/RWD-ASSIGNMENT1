@@ -1,38 +1,52 @@
-@import url(../templates/nav-bar.css);
-.carousel-inner img{
-    /* customizing the boostarp carousel(Constantina Tripon) */
+/*@import url(../templates/nav-bar.css);*/
+* .body {
+    font-family: sans-serif;
+}
+
+.carousel-inner img {
+    /* customizing the boostarp carousel*/
     width: 100%;
     height: 100%;
 }
-/*I created a background color for the border that hold the buttons*/
-.border{
-    background-color: black;
-}
-/* customizing the images contained inside the card elements within the 4 pages with classes*/
- /*customization of the spacing between elemens*/
-.mx-auto{                    
+
+/*customization of the spacing between elemens*/
+.mx-auto {
     width: 100%;
     text-align: center;
     padding: 3%;
+    background-color: aliceblue;
 }
-/* customization to the text inside the card element(Constantina Tripon)*/
-.text {
-  background-color: transparent;
-  color: white;
-  font-size: 200%;
-  text-align: center;
-  padding: 3% 4%;
+
+/*text color for the navbar*/
+.nav-link {
+    color: white;
 }
-/*customization of the text when hover on an image from the card element (Constantina Tripon)*/
-.card-text{
-    text-align: center;
-    background-color: transparent;
+
+/*text color for the nav bar*/
+.nav-text {
+    color: white;
 }
-.card-title{
-    text-align: center;
-}
-/*Styling applied to the card element on the classes page*/
+
+/*border color for the card class*/
 .card {
     border-color: black;
 }
 
+/* a change of the class background when screen is smaller than 540px*/
+@media (min-width: 540px) {
+    .mx-auto {
+        background-color: transparent;
+    }
+}
+
+/*styling of the card elements*/
+.row-classes {
+    align-content: center;
+    width: 100%;
+    border-color: black;
+}
+
+.footer {
+    text-align: center;
+
+}
