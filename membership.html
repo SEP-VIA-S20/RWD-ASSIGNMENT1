@@ -51,8 +51,8 @@
 </header> <!--<header> closing-->
 
 
-<!--added a jumbotron component with the jumbotron-fluid class-->
-<div class="jumbotron jumbotron-fluid">
+<!--added a jumbotron component with the jumbotron-fluid class and padding 4rem-->
+<div class="jumbotron jumbotron-fluid p-4">
     <div class="container"> 
         <h1 class="display-4">Memberships</h1>
         <p class="lead">Choose the membership that fits you the best and start training today!</p>
@@ -90,7 +90,7 @@
 </section> <!--section-cards-->
 
 <!--create a section for some content, wraped into container -->
-<section class="section-content">
+<section class="section-content mt-3">
     <div class="container">
        <!--create a row to use Bootstrap Grid Layout-->
         <div class="row mb-3"> 
@@ -111,10 +111,9 @@
         </div>
     </div>
    
-    <!--create a section and wrap everthing into a container -->
+    <!--create a section and add a container for spacing -->
     <div class="section section-plans d-none d-sm-block">
-    <div class="container">
-       
+    <div class="container">       
        <!--added a carousel with captions bootstrap component-->
         <div id="carouselPlan" class="carousel slide d-none d-md-block" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -158,20 +157,23 @@
 </section>
 
 
-<!--added a jumbotron component with a button, with background light, text centralized and with the same style of the section-content class-->
-<div class="jumbotron bg-light text-center section-content">
+<section class="contact-us">
+<!--added a jumbotron component with a button, with background light, text centralized, and  resizing the padding top to 3 and bottom to 2-->
+<div class="jumbotron bg-light text-center pt-3 pb-2">
+   <!--lead typography class to make a paragraph stand out-->
     <p class="lead">We are here to help you, so don't hesitate to contact us!</p>
     <hr class="my-7">
     <p class="lead">Join our VIAFamily</p>
-    <button type="button" class="btn btn-outline-dark"><a href="contact.html">Contact us</a></button>
+    <!--classes for the contact us button for styling it with background color light, border danger and btn-primary style. Also a ancher to the Contact us page-->
+    <button type="button" class="btn btn-primary bg-light border-danger"><a href="contact.html">Contact us</a></button>
 </div>
-   
+</section>
 
 
 <div class="jumbotron jumbotron-fluid back">
 <!--Jumbotron component to give a separated effect between the main part and the footer. Also, added a "go to the top link" with the #top refering to the id=top defined above-->
     <div class="container">
-        <div class="button"><a href="#top"><h5>Back to the top</h5></a></div>
+        <div class="button contact-us"><a href="#top"><h5>Back to the top</h5></a></div>
     </div>
 </div>
 

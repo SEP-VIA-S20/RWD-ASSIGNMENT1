@@ -123,9 +123,18 @@ p,a,h1,h2,h3 {
 }
 
 .section-content a:hover{
-    color: var(--second-color);
-    text-decoration-line: underline;
+    color: var(--main-background);
+
     font-weight: bold;
+}
+
+
+.contact-us p {
+    color: var(--second-color);
+}
+
+.contact-us a:hover {
+    color: var(--second-color);
 }
 
 
