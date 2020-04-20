@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;800&family=Dosis&family=Playfair+Display:wght@400;700&display=swap');
 
+
 /*Settings for the entire page*/
 *{
     margin: 0;
@@ -20,6 +21,7 @@
     color: var(--main-background);
     --main-transform: scale(1.03);
 } /*END Settings for the entire page*/
+
 
 
 /*body standard: background-color, font, margin*/
@@ -125,7 +127,6 @@ p,a,h1,h2,h3 {
     text-decoration-line: underline;
     font-weight: bold;
 }
-
 
 
 
