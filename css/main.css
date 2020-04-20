@@ -296,7 +296,27 @@ and some copyright feature from non advanced users */
   padding:20px;
   filter: var(--hue-rotation);
 }
-
+.contact-div{
+  display: block;
+  background: var(--second-color);
+  filter: var(--hue-rotation);
+  text-align: center;
+  padding: 40px;
+  border-radius: var(--main-radius);
+  
+}
+a.contact-link{
+  color: var(--second-color);
+  background: var(--main-background);
+  padding: 10px;
+  margin: 30px 10px;
+  border-radius: var(--second-radius);
+  font-size: 1.5rem;
+}
+.contact-link:hover
+{
+  transform: var(--main-transform);
+}
 footer>p {
   color: var(--second-color);
 }
