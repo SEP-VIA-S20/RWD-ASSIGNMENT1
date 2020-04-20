@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;800&family=Dosis&family=Playfair+Display:wght@400;700&display=swap');
+
+/*Settings for the entire page*/
+*{
+    margin: 0;
+    padding: 0;
+    --transition-speed: 270ms;
+    transition: all var(--transition-speed);
+    --main-background: white;
+    --second-color:red;
+    --main-font: 'Dosis', sans-serif;
+    --second-font: 'Dosis', sans-serif;
+    --hue-rotation: hue-rotate(-7deg);
+    --main-border: 2px solid var(--second-color);
+    --second-border: 2px solid var(--main-background);
+    font-size: 20px;
+    --second-hue-rotation: hue-rotate(32deg);
+    --main-radius: 25px;
+    --second-radius: 15px;
+    color: var(--main-background);
+    --main-transform: scale(1.03);
+} /*END Settings for the entire page*/
+
+
+/*body standard: background-color, font, margin*/
+body{
+    background-color:var(--main-background);
+    font-family: var(--main-font);
+    margin:0;
+    font-weight: 400;
+    
+} /*END body*/
+
+a:hover{
+  color:var(--main-background);
+  text-decoration: none;
+}
+
+
+.logo{
+    width: 170px;
+    padding: 0;
+
+}
+.logo:hover{
+  transform: var(--main-transform);
+ 
+ }
+.bg-dark{
+    padding:0 20px;
+    background-color: var(--second-color) !important;
+    filter: var(--hue-rotation);
+    border-radius:0 0 25px 25px;
+    margin-bottom:30px;
+    border:var(--main-border);
+    border-top: none;
+    font-size:25px;
+}
+
+.nav-item{
+  margin: 1px 2px;
+}
+
+.nav-link{
+  border-radius: 25px;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+a.nav-link:hover{
+  background-color: var(--main-background);
+  transform: var(--main-transform);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:var(--second-color);
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:var(--main-background);
+  padding: 5px 10px;
+  border:none;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+  background-color: var(--main-background);
+  color:var(--second-color);
+  
+}
+
+p,a,h1,h2,h3 {
+  color: var(--main-background);
+  text-align: center;
+}
+
+.jumbotron {
+    background-color:var(--second-color);
+}
+.jumbotron h1 {
+    color: var(--main-background);
+}
+
+.section-cards {
+    margin:3% 10% 3% 10%;
+    padding:25px;
+    border: var(--main-border);
+    border-radius:25px;
+    background-color:var(--second-color);
+    filter: var(--hue-rotation);
+
+ }
+
+ .card:hover {
+   transform: var(--main-transform);
+ }
+
+.card-body p, h1, h2 {
+    color: var(--second-color);
+}
+
+.section-content p, h2, a {
+    color: var(--second-color);
+    line-height: 1.9rem;
+}
+
+.section-content a:hover{
+    color: var(--second-color);
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+
+
+
+
+.back {
+    padding: 20px;
+    margin-bottom: 0.1rem;
+    margin-top: 0.8rem;
+}
+.back h5{
+    margin-bottom: 0;
+}
+
+
+/* ****FOOTER**** */
+.footer {
+    background: var(--main-background);
+    height: 80px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p, a {
+    color: var(--second-color);
+}
+
+.fa-github {
+    color: var(--second-color);
+    transform: scale(3);
+    margin: 30px;
+    margin-top: 10px;
+}
+
+.fa-github:hover {
+    transform: scale(3.4);
+}
