@@ -1,12 +1,28 @@
 @import url(../templates/nav-bar.css);
 
+a.instructor-contact{
+    text-decoration: none;
+    color: var(--second-color);
+    padding: 2px 5px;
+    background-color: var(--main-background);
+    border-radius: 5px;
+}
+
+
 .instructor{
+    background: var(--second-color);
+    filter: var(--hue-rotation);
+    border-radius: var(--main-radius);
+    padding-bottom: 25px;
     
+}
+.instructor> div{
+        border-radius: var(--main-radius);
 }
 .anders{
     background: url(../images/Anders.jpg);
     height: 300px;
-    width: 300px;
+    width: 100%;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +31,7 @@
 .lucas{
     background: url(../images/Lucas.jpg);
     height: 300px;
-    width: 300px;
+    width: 100%;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +40,7 @@
 .dimitrian{
     background: url(../images/Dimitrian.jpg);
     height: 300px;
-    width: 300px;
+    width: 100%;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -33,7 +49,7 @@
 .daniel{
     background: url(../images/Daniel.jpg);
     height: 300px;
-    width: 300px;
+    width: 100%;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,9 +58,27 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 
     .anders{
-        width: 95vw;
-        height: 95vw;
-
+        width: 90vw;
+        height: 90vw;
     }
+    .lucas{
+        width: 90vw;
+        height: 90vw;
+    }
+    .dimitrian{
+        width: 90vw;
+        height: 90vw;
+    }
+    .daniel{
+        width: 90vw;
+        height: 90vw;
+    }
+}
+.instructor > h1,p{
+    color: var(--main-background);
+    
+}
+.instructor > p{
+    margin: 0 20px;
 }
 
