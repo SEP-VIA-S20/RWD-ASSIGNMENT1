@@ -1,12 +1,14 @@
-/*@import url(../templates/nav-bar.css);*/
-* .body {
-    font-family: sans-serif;
-}
+@import url(../templates/nav-bar.css);
 
-.carousel-inner img {
-    /* customizing the boostarp carousel*/
+/* customizing the boostarp carousel*/
+.carousel-inner {
     width: 100%;
     height: 100%;
+    background-color: red;
+    background: var(--second-color);
+    filter: var(--hue-rotation);
+    border-radius: var(--main-radius);
+    padding: 25px;
 }
 
 /*customization of the spacing between elemens*/
@@ -14,7 +16,22 @@
     width: 100%;
     text-align: center;
     padding: 3%;
-    background-color: aliceblue;
+    background-color: lightcyan;
+}
+/* the styling is for elemnets of the web-page for the the sub-classes in the classes page, created by Daniel*/
+.subclasses {
+    background: var(--second-color);
+    filter: var(--hue-rotation);
+    border-radius: var(--main-radius);
+    
+}
+.text-center {
+    color: white;
+}
+.video-embeded {
+     background: var(--second-color);
+    filter: var(--hue-rotation);
+    border-radius: var(--main-radius);
 }
 
 /*text color for the navbar*/
@@ -46,7 +63,3 @@
     border-color: black;
 }
 
-.footer {
-    text-align: center;
-
-}
