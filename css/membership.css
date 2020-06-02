@@ -19,15 +19,11 @@
   --second-radius: 15px;
   color: var(--main-background);
   --main-transform: scale(1.03);
+        font-family: var(--main-font);
+    text-align: center;
 }
 
-body {
-  background-color: var(--main-background);
-  font-family: var(--main-font);
-  margin: 0;
-  font-weight: 400;
 
-}
 
 a:hover{
   color:var(--main-background);
@@ -59,9 +55,9 @@ a:hover{
 }
 
 .nav-link{
-  border-radius: 25px;
-  padding: 5px 5px;
-  text-align: center;
+    border-radius: 25px;
+    padding: 5px 5px;
+    text-align: center;
 }
 
 a.nav-link:hover{
@@ -80,13 +76,13 @@ a.nav-link:hover{
   border:none;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link, 
-.navbar-dark .navbar-nav .nav-link.active, 
-.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
   background-color: var(--main-background);
-  color:var(--second-color);
-}
+  color: var(--second-color);
+} 
 
 p,a,h1,h2,h3 {
   color: var(--main-background);
@@ -123,7 +119,6 @@ p,a,h1,h2,h3 {
 
 .section-content p, h2, a {
     color: var(--second-color);
-    line-height: 1.9rem;
 }
 
 .section-content a:hover{
@@ -157,7 +152,7 @@ p,a,h1,h2,h3 {
     text-align: center;
 }
 
-footer p, a {
+.footer p, a {
     color: var(--second-color);
 }
 

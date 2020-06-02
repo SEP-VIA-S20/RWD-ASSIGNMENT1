@@ -12,31 +12,26 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 
-<header> <!--start the header of the page-->
-       <!--add a Bootstrap navbar from the Bootstrap Components-->
-       <!--the navbar uses the class "navbar-expand-lg" to be expanded when the browser window is greater than the large breakpoint, which is a breakpoint from the Bootstrap Grid Layout-->
-       <!--class bg-dark navbar-dark default: to set the navbar background color to dark, but we change it on our own CSS-->
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-          <!--add the logo with a link to the index page. Also the id=top to get back from the bottom of the page-->
-            <a href="index.html" id="top"> <img src="./images/logo.png" alt="logo" class="logo"></a>
-           <!--button atttributes and classes of the navbar toggled when the browser window is smaller than the lg breakpoint. The navbar/data of the ul below is toggled to collapsed-->
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavbar">
-               <span class="navbar-toggler-icon"></span>
-           </button>
-           
-            <div class="collapse navbar-collapse" id="topNavbar">
+<body>
+
+<header>
+    <nav class=" navbar navbar-expand-lg bg-dark navbar-dark">
+        <a href="./index.html"> <img src="./images/logo.png" alt="logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavbar"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="topNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="instructors.html" class="nav-link">Instructors</a></li>
                 <li class="nav-item active"><a href="#" class="nav-link">Membership</a></li>
                 <li class="nav-item"><a href="classes.html" class="nav-link">Classes</a></li>
-                <li class="nav-item"><a href="Schedule.html" class="nav-link">Schedule</a></li>
+                <li class="nav-item"><a href="schedule.html" class="nav-link">Schedule</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
             </ul>
-            </div>
-        </nav> <!--<navbar> closing-->
-</header> <!--<header> closing-->
+        </div>
+    </nav>
+</header>
+<!--<header> closing-->
 
 
 <!--added a jumbotron component with the jumbotron-fluid class and padding 4rem-->
@@ -81,7 +76,7 @@
 <div class="section-content">
     <div class="container">
         <!--create a row to use Bootstrap Grid Layout-->
-        <div class="row mb-3">
+        <div class="row my-4">
             <!--divide the row in two "spaces" of 6 column each, but only when the screen is bigger than the medium size of the Grid Layout. When smaller than md, shows the two colums as one/stack-->
             <article class="col-md-5">
                 <h2>TECHNOLOGY</h2>
@@ -99,7 +94,7 @@
     </div>
 </div>
 <!--create a section and add a container for spacing -->
-<div class="section section-plans d-none d-sm-block">
+<div class="section section-plans mb-5 d-none d-sm-block">
     <div class="container">
         <!--added a carousel with captions bootstrap component-->
         <div id="carouselPlan" class="carousel slide d-none d-md-block" data-ride="carousel">
@@ -132,7 +127,7 @@
 </div>
 
 
-<div class="jumbotron jumbotron-fluid text-center pt-3 pb-2 mt-5 mx-5 jumbo">
+<div class="jumbotron jumbotron-fluid text-center pt-3 pb-2 mt-4 mx-5 jumbo">
    <!--lead typography class to make a paragraph stand out-->
     <p class="lead">We are here to help you, so don't hesitate to contact us!</p>
     <hr class="my-7">
@@ -153,5 +148,5 @@
     <p>Check us on Github</p>
     <a href="https://github.com/SEP-VIA-S20/VIAFit" target="_blank"> <i class="fab fa-github"></i></a>
 </footer>
-
+</body>
 </html>
